@@ -12,9 +12,8 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
 ## TABLE OF CONTENTS
 ### Projects
 #### Python
-  - [ ] Automated_Google_Drive_Directory_Updater.py
   - [x] Distance Converter
-  - [ ] Desktop_Cleaner.py
+  - [x] Desktop_Cleaner.py
   - [ ] Email_bot.py
 #### SQL
   - [ ] NBA 2023 Season Analysis
@@ -26,12 +25,6 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
 ### Contact
 ## PROJECTS
 ### _Python_
-#### Automated_Google_Drive_Directory_Updater.py
-<details>
-<summary>Script</summary>
-
-</details>
-
 #### Distance_Converter.py
 
 <details>
@@ -40,10 +33,11 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
 ![distance_converter py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/53261b73-1a9f-4898-89ab-f0e3cd5fd668)
 </details>
 
-#### Desktop_Cleaner.py
+#### Desktop_Organizer.py
 <details>
 <summary>Script</summary>
-
+  
+![desktop_organizer](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/23196a1f-26c8-4e3c-9f6f-ec84c3ace539)
 </details>
 
 #### Email_bot.py
