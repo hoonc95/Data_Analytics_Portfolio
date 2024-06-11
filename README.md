@@ -3,6 +3,7 @@
 Hello my name is HOON CHOI.
 I have created this repository to serve as my hub to showcase expertise, recount certain challenges, and - overall - monitor progression.
 Explore this repo for various insights, projects, and evolution on my Data Analytics and Data Science journey.
+
 ## OBJECTIVE
 Data Analyst with expertise in data visualization and relational databases, using Python, SQL, and Tableau - among other business intelligence tools.
 Proven ability to drive business outcomes through insightful data, demonstrated by increased customer engagement and cost reduction. 
@@ -25,19 +26,43 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
 ### Contact
 ## PROJECTS
 ### _Python_
-#### Distance_Converter.py
-
-<details>
-<summary>Script</summary>
-
-![distance_converter py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/53261b73-1a9f-4898-89ab-f0e3cd5fd668)
-</details>
-
 #### Desktop_Organizer.py
+Script, designed to automate File Organization on a specified directory ("~/Desktop") used in this example.  
+Scans desktop for files -  based on supported file types (e.g., images, videos, audio, documents) - to categorize into predefined directories.  
+The GUI, built with tkinter, features a simple window with a title and a button, that begins the file organization process.  
+Logs were configured to provide details about moved files and retreive relocated files.
+
+Key functions:
+- [make_unique] to handle duplicate filenames
+- [move_file] to relocate files
+- [process_file] to determine the appropriate destination for each file
+
+Key packages used:
+- 'tkinter' for a simple GUI conformation
+- 'os' for file system operations
+- 'shutil' for high-level file handling
 <details>
 <summary>Script</summary>
   
 ![desktop_organizer](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/23196a1f-26c8-4e3c-9f6f-ec84c3ace539)
+</details>
+
+#### Distance_Converter.py
+Desktop application ran to convert distance - mi to km / km to mi, selected with a dropdown menu.  
+Core function reads the input value and performs the conversion, based on the selected type.  
+The 'tkinter' package is used for the application window, 'ttk' supports tailored themes.
+
+Key functions:
+- [convert] to read and process input values
+- [combobox] used to provide conversion unit selection
+
+Key packages used:
+- 'tkinter' for a simple GUI conformation
+- 'ttk' for theme support
+<details>
+<summary>Script</summary>
+
+![distance_converter py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/53261b73-1a9f-4898-89ab-f0e3cd5fd668)
 </details>
 
 #### Email_bot.py
