@@ -9,12 +9,11 @@ Data Analyst with expertise in data visualization and relational databases, usin
 Proven ability to drive business outcomes through insightful data, demonstrated by increased customer engagement and cost reduction. 
 Skilled in creating impactful marketing strategies and content, contributing to business development. 
 Certified in Data Analytics and Business Intelligence with a BBA in Business Administration, seeking to leverage analytical skills to support data-driven decision-making and growth in a dynamic organization.
-## RESUME
 ## TABLE OF CONTENTS
 ### Projects
 #### Python
-  - [x] Distance Converter
   - [x] Desktop_Cleaner.py
+  - [x] Distance_Converter.py
   - [x] Email_bot.py
 #### SQL
   - [ ] NBA 2023 Season Analysis
@@ -80,7 +79,7 @@ After confirmation, email is sent and the processed '_.rtf_' file is renamed and
 
 ##### Key packages used:
 - 'os' for file system operations
-- 'smtplib' for theme support
+- 'smtplib' for allows for connection to SMTP server
 <details>
 <summary>Script</summary>
   
@@ -89,6 +88,7 @@ After confirmation, email is sent and the processed '_.rtf_' file is renamed and
 
 ### _SQL_
 #### NBA_2023_Season_Player_Stats.sql
+
 #### Sri_Lanka_Auto_Accident_Insights.sql
 ### _Tableau_
 #### NBA_2023_Season_Dashboard
