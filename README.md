@@ -12,9 +12,10 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
 ## TABLE OF CONTENTS
 ### Projects
 #### Python
+  - [x] Blockchain.py
+  - [x] Email_bot.py
   - [x] Desktop_Cleaner.py
   - [x] Distance_Converter.py
-  - [x] Email_bot.py
 #### SQL
   - [ ] NBA 2023 Season Analysis
   - [ ] How I Met Your Mother Ratings
@@ -25,65 +26,100 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
 ### Contact
 ## PROJECTS
 ### _Python_
-#### Desktop_Organizer.py
-Script, designed to automate File Organization on a specified directory ("_~/Desktop_") used in this example.  
-Scans desktop for files -  based on supported file types (_e.g., images, videos, audio, documents_) - to categorize into predefined directories.  
-The GUI, built with tkinter, features a simple window with a title and a button, that begins the file organization process.  
-Logs were configured to provide details about moved files and retreive relocated files.
-
+#### Blockchain.py
+The code implements a simple blockchain for authentication.  
+Previous blocks are encrypted with a SHA256 hash, used to authenticate the integrity of each new subsequent block.  
+The chain starts with a genesis block and allows additional subsequent blocks.
 ##### Key functions:
-- [_make_unique_] to handle duplicate filenames
-- [_move_file_] to relocate files
-- [_process_file_] to determine the appropriate destination for each file
-
+```diff
+* [calc_hash] to calculate the SHA-256 hash of the block data
+* [add_transaction] add a new block to the chain and updates the balances of the transactional parties
+* [print_blockchain_with_balances] prints blockchain with the balance of the transactional parties of each block
+```
 ##### Key packages used:
-- 'tkinter' for a simple GUI conformation
-- 'os' for file system operations
-- 'shutil' for high-level file handling
-<details>
-<summary>Script</summary>
-  
-![desktop_organizer](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/23196a1f-26c8-4e3c-9f6f-ec84c3ace539)
-</details>
+```diff
+* import 'hashlib' for secure hashing - SHA256
+```
+![Screenshot 2024-06-19 at 12 01 43 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/ce2d0930-6d0c-4097-990e-60e0663d6483)
 
-#### Distance_Converter.py
-Desktop application ran to convert distance - "_mi to km_" / "_km to mi_", selected with a dropdown menu.  
-Core function reads the input value and performs the conversion, based on the selected type.  
-<Enter> key can be used to run conversion (for full-size keyboard users).
-
-##### Key functions:
-- [_convert_] to read and process input values
-- [_combobox_] used to provide conversion unit selection
-
-##### Key packages used:
-- 'tkinter' for a simple GUI conformation
-- 'ttk' for theme support
 <details>
 <summary>Script</summary>
 
-![distance_converter py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/53261b73-1a9f-4898-89ab-f0e3cd5fd668)
+![blockchain_w__balance](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/49c4f97f-88a6-4c02-bf6a-329031bd4fe2)
 </details>
 
 #### Email_bot.py
 This script automates sending emails from '_.rtf_' files.  
 Locates the most recent '_.rtf_' file in specified directory, parses the file for email details (_FROM, TO, SUBJECT, BODY, and ATTACHMENTS_).  
 After confirmation, email is sent and the processed '_.rtf_' file is renamed and catalogued.
-
 ##### Key functions:
-- [_dotenv_] library is needed to load email server details (_username, password, server address, port_) from an configured '_.env_' file.
-- [_smtp_connection_] connects to SMTP server using secure TLS encryption
-- [_send_email_via_smtp_] to administer send emails with attachments
-- [_get_most_recent_rtf_file_] reliant on email drafted from a '_.rtf_' file
-- [_confirm_send_email_] final confirmation dialogue before email
-- [_rename_rtf_file_] once sent, '_.rtf_' is renamed and catalogued as '_[date][time][to_email].rtf_'
-
+```diff
+* [dotenv] library is needed to load email server details (_username, password, server address, port_) from an configured '_.env_' file.
+* [smtp_connection] connects to SMTP server using secure TLS encryption
+* [send_email_via_smtp] to administer send emails with attachments
+* [get_most_recent_rtf_file] reliant on email drafted from a '_.rtf_' file
+* [confirm_send_email] final confirmation dialogue before email
+* [rename_rtf_file] once sent, '_.rtf_' is renamed and catalogued as '_[date][time][to_email].rtf_'
+```
 ##### Key packages used:
-- 'os' for file system operations
-- 'smtplib' for allows for connection to SMTP server
+```diff
+* import 'os' for file system operations
+* import 'smtplib' for allows for connection to SMTP server
+```
 <details>
 <summary>Script</summary>
   
 ![email_bot py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/76a652b8-9a29-4417-bd37-b9ac7284c9d0)
+</details>
+
+#### Desktop_Organizer.py
+Script, designed to automate File Organization on a specified directory ("_~/Desktop_" used in this example ).  
+Scans selected directory for files -  based on supported file types (_e.g., audio, documents, images, videos_) - to categorize into selected directories.  
+The GUI - built with tkinter - features a simple window with a title, input field, and file browse capabilities, to configure the file organization.  
+Logs were configured to provide details about moved files and retreive relocated files.
+##### Key functions:
+```diff
+* [make_unique] to handle duplicate filenames
+* [move_file] to relocate files
+* [process_file] to determine the appropriate destination for each file
+```
+##### Key packages used:
+```diff
+* import 'tkinter' for a simple GUI conformation
+* import 'os' for file system operations
+* import 'shutil' for high-level file handling
+```
+
+![Screenshot 2024-06-19 at 3 44 14 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/bc7eb833-ccd3-40d8-b1b7-3ba2bfd10666)
+```diff
+BEFORE (TOP) | AFTER (BOTTOM)
+```
+![Screenshot 2024-06-19 at 3 44 00 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/03b585c3-21bc-45e1-89f4-bf03d267aea7)
+<details>
+<summary>Script</summary>
+
+![desktop_organizer py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/d9cae3e1-69b5-436f-a29b-1a318438607e)
+
+</details>
+
+#### Distance_Converter.py
+Desktop application ran to convert distance - "_mi to km_" / "_km to mi_", selected with a dropdown menu.  
+Core function reads the input value and performs the conversion, based on the selected type.  
+<Enter> key can be used to run conversion (for full-size keyboard users).
+##### Key functions:
+```diff
+* [convert] to read and process input values
+* [combobox] used to provide conversion unit selection
+```
+##### Key packages used:
+```diff
+* import 'tkinter' for a simple GUI conformation
+* import 'ttk' for theme support
+```
+<details>
+<summary>Script</summary>
+
+![distance_converter py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/3d61725a-6e5e-4526-a627-0fafd99d7d15)
 </details>
 
 ### _SQL_
