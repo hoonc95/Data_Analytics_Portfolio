@@ -42,7 +42,7 @@ The chain starts with a genesis block and allows additional subsequent blocks.
 ![Screenshot 2024-06-19 at 12 01 43 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/ce2d0930-6d0c-4097-990e-60e0663d6483)
 
 <details>
-<summary>Script</summary>
+<summary>Python Script</summary>
   
 ![blockchain py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/7cc9999d-c382-424c-ab1d-d683613b6f52)
 </details>  
@@ -66,7 +66,7 @@ After confirmation, email is sent and the processed '_.rtf_' file is renamed and
 • import 'smtplib' for allows for connection to SMTP server
 ```
 <details>
-<summary>Script</summary>
+<summary>Python Script</summary>
   
 ![email_bot py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/76a652b8-9a29-4417-bd37-b9ac7284c9d0)
 </details>
@@ -89,13 +89,13 @@ Logs were configured to provide details about moved files and retreive relocated
 • import 'shutil' for high-level file handling
 ```
 
-![Screenshot 2024-06-19 at 3 44 14 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/bc7eb833-ccd3-40d8-b1b7-3ba2bfd10666)
+![Screenshot 2024-06-19 at 3 44 00 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/03b585c3-21bc-45e1-89f4-bf03d267aea7)
 ```diff
 BEFORE (TOP) | AFTER (BOTTOM)
 ```
-![Screenshot 2024-06-19 at 3 44 00 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/03b585c3-21bc-45e1-89f4-bf03d267aea7)
+![Screenshot 2024-06-19 at 3 44 14 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/bc7eb833-ccd3-40d8-b1b7-3ba2bfd10666)
 <details>
-<summary>Script</summary>
+<summary>Python Script</summary>
 
 ![desktop_organizer py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/d9cae3e1-69b5-436f-a29b-1a318438607e)
 
@@ -117,7 +117,7 @@ Core function reads the input value and performs the conversion, based on the se
 ```
 ![Screenshot 2024-06-19 at 6 02 16 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/c2ea3c59-239c-4800-b095-221d5df58ddc)
 <details>
-<summary>Script</summary>
+<summary>Python Script</summary>
 
 ![distance_converter py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/3d61725a-6e5e-4526-a627-0fafd99d7d15)
 </details>
@@ -165,31 +165,33 @@ Currently favored potentials (no specific order):
 > June 2024 [List of cities in the Americas by population | Wikipedia](https://en.wikipedia.org/wiki/List_of_cities_in_the_Americas_by_population#cite_note-4)  
 > Feb 2022 [Population and dwelling counts: Census metropolitan areas, census agglomerations and census subdivisions | StatCAN](https://doi.org/10.25318/9810000301-eng)  
 
-##### Draft Rules
+#### Draft Rules
 As per the previous 
 <details>
-<summary>Script</summary>
+<summary>SQL Query</summary>
 
 </details>
 
 ### _NBA_2023_Season_Analysis_Player_Stats.sql_
+<details>
+<summary>SQL Query</summary>
+
+</details>
 
 ## TABLEAU DASHBOARDS
 ### _DASHBOARD-NBA_2023_Season_
 <details>
 
-<summary>Details</summary>
+<summary>Source</summary>
 
-Source: 
 [Kaggle - NBA Play-by-Play Data (1997-2023)](https://www.kaggle.com/datasets/szymonjwiak/nba-play-by-play-data-1997-2023?select=pbp2023.csv)
 </details>
 
 ### _INFO_SHEET-How_I_Met_Your_Mother_
 <details>
 
-<summary>Details</summary>
+<summary>Source</summary>
 
-Source:
 [Kaggle - How I Met Your Mother Dataset](https://www.kaggle.com/datasets/vidheeshnacode/how-i-met-your-mother-himym-dataset))
 </details>
 
