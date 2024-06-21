@@ -10,20 +10,20 @@ Proven ability to drive business outcomes through insightful data, demonstrated 
 Skilled in creating impactful marketing strategies and content, contributing to business development. 
 Certified in Data Analytics and Business Intelligence with a BBA in Business Administration, seeking to leverage analytical skills to support data-driven decision-making and growth in a dynamic organization.
 ## TABLE of CONTENTS
-### Python Projects
-  - [x] Blockchain.py
-  - [x] Email_bot.py
-  - [x] Desktop_Organizer.py
-  - [x] Distance_Converter.py
-### SQL Databases
-  - [ ] Prospective_NBA_Expansion_Draft_Pool.sql
-  - [ ] NBA_2023_Season_Analysis_Player_Stats.sql
-### Tableau Dashboards
-  - [ ] DASHBOARD-NBA_2023_Season
-  - [ ] INFO_SHEET-How_I_Met_Your_Mother
+### [Python Projects](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#python-projects-1)
+  - [_Blockchain.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#blockchainpy)
+  - [_SMTP_Email_bot.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#smtp_email_botpy)
+  - [_Desktop_Organizer.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#desktop_organizerpy)
+  - [_Distance_Converter.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#distance_converterpy)
+### [SQL Databases](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#sql-databases-1)
+  - [_Prospective_NBA_Expansion_Draft_Pool.sql_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#prospective_nba_expansion_draft_poolsql)
+  - [_NBA_2023_Season_Analysis_Player_Stats.sql_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#nba_2023_season_analysis_player_statssql)
+### [Tableau Dashboards](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#tableau-dashboards-1)
+  - [_DASHBOARD-NBA_2023_Season_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#dashboard-nba_2023_season)
+  - [_INFO_SHEET-How_I_Met_Your_Mother_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#info_sheet-how_i_met_your_mother)
 
-### Certificates
-### Contact
+### [Certificates](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#certificates-1)
+### [Contact](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#contact-1)
 ## PYTHON PROJECTS
 ### _Blockchain.py_
 The code implements a simple blockchain for authentication.  
@@ -47,7 +47,7 @@ The chain starts with a genesis block and allows additional subsequent blocks.
 ![blockchain py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/7cc9999d-c382-424c-ab1d-d683613b6f52)
 </details>  
 
-### _Email_bot.py_
+### _SMTP_Email_bot.py_
 This script automates sending emails from '_.rtf_' files.  
 Locates the most recent '_.rtf_' file in specified directory, parses the file for email details (_FROM, TO, SUBJECT, BODY, and ATTACHMENTS_).  
 After confirmation, email is sent and the processed '_.rtf_' file is renamed and catalogued.
@@ -157,16 +157,42 @@ Currently favored potentials (no specific order):
   - regular host of NBA team preseaon training camps and exhibition games
   - 17th highest Metropolitan Statistical Area (pop: 3,298,634) [2020 Census Data]
 ```
-##### Sources 
+<details>
+<summary>Sources</summary>
+
 > Mar 2024 [Metropolitan and Micropolitan Statistical Areas Population Totals: 2020-2023 | US Census Bureau](https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-metro-and-micro-statistical-areas.html#v2023)  
 > June 2024 [Adam Silver Interview at the 2024 NBA Finals - Game 5 | NBC Sports](https://x.com/NBCSCeltics/status/1799940731907330263)  
 > Feb 2024 [Adam Silver: Las Vegas 'definitely' an expansion candidate | ESPN](https://www.espn.com/nba/story/_/id/39525601/adam-silver-tells-espn-las-vegas-definitely-list-expansion-candidates)  
 > June 2022 [Los Angeles Lakers star LeBron James says he wants to own NBA team in Las Vegas | ESPN](https://www.espn.com/nba/story/_/id/34065127/los-angeles-lakers-star-lebron-james-says-wants-own-nba-team-las-vegas)  
 > June 2024 [List of cities in the Americas by population | Wikipedia](https://en.wikipedia.org/wiki/List_of_cities_in_the_Americas_by_population#cite_note-4)  
 > Feb 2022 [Population and dwelling counts: Census metropolitan areas, census agglomerations and census subdivisions | StatCAN](https://doi.org/10.25318/9810000301-eng)  
+</details>
 
 #### Draft Rules
-As per the previous 
+As per the previous [EXPANSION DRAFT rules (NBA)](https://www.nba.com/hornets/news/draft_central_expansion_rules_summary.html)   
+The new expansion teams will flip a coin to decide either:  
+(1) a higher spot in the NBA EXPANSION DRAFT or  
+(2) a higher spot in the NBA DRAFT  
+
+##### The NBA EXPANSION DRAFT POOL will consist of players left unprotected by their teams.  
+• Each team will designate (8) protected players from their rosters  
+• Each team will designate unprotected players to add to the pool  
+• Each team will designate at least (1) player for the pool - even if the team does not have (8) players on the roster  
+
+##### The new expansion teams will be granted:  
+• a roster of (14) players of their selection from the NBA EXPANSION DRAFT POOL  
+• only select a single player from a team  
+• player selection regardless of the salary cap (2024-25 | $141 Million [Sports Business Classroom](https://www.sportsbusinessclassroom.com/breaking-down-nba-141m-salary-cap-projection-2024-25/#:~:text=In%20late%20January%2C%20the%20NBA,campaign's%20%24136%20million%20salary%20cap.))  
+• the rights to sign players restricted free agents to the “Bird,” “Early Bird” or “Non-Bird” contracts [spotrac](https://www.spotrac.com/news/_/id/2086/nba-expansion-series-expansion-draft-rules)  
+
+##### EXPANSION DRAFT Trades:  
+• (PRE_) Teams will be permitted to enter trades prior to the EXPANSION DRAFT for the selection (and non-selection) of players in the pool  
+• (POST) Reacquisition of a player lost in the EXPANSION DRAFT will be prohibited for (1) year following the selection  
+• (POST) If a player is waived and unclaimed by other teams, reacquisition may be granted  
+
+
+#### PROSPECTIVE EXPANSION DRAFT POOL
+
 <details>
 <summary>SQL Query</summary>
 
