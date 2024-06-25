@@ -11,6 +11,7 @@ Skilled in creating impactful marketing strategies and content, contributing to 
 Certified in Data Analytics and Business Intelligence with a BBA in Business Administration, seeking to leverage analytical skills to support data-driven decision-making and growth in a dynamic organization.
 ## TABLE of CONTENTS
 ### [Python Projects](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#python-projects-1)
+  - [_ShowMyIP_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#showmyip)
   - [_Blockchain.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#blockchainpy)
   - [_SMTP_Email_bot.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#smtp_email_botpy)
   - [_Desktop_Organizer.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#desktop_organizerpy)
@@ -25,6 +26,41 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
 ### [Certificates](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#certificates-1)
 ### [Contact](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#contact-1)
 ## PYTHON PROJECTS
+### _ShowMyIP_
+There are at least 3 main ways to display a machine's IP address - Third-party websites/software, Command-Line Interface, "Settings > WiFi > More Info".  
+- _[Third-party sites/software]_ requires connected to a server to ping the machine, where the company will hold that data  
+- _[Command-Line Interface]_ requires a command (_$ ifconfig_) / a string of commands (_below_) - difficult to decipher/memorize
+- _[WiFi Settings]..._ takes time to locate the correct option and buttons
+
+However - at the click of single button - this packaged python app will run the following command into the machine's command-line interface (in the background) to display the IP address.
+```diff
+$ ifconfig | grep 'inet '| grep -v 127.0.0.1 | awk 'NR==1{print $2}'
+```
+##### Breakdown of above command:
+_ifconfig_ - displays information about network interfaces on your system  
+_grep 'inet '_ - filters for lines containing 'inet '  
+_grep -v 127.0.0.1_ - excludes line containing '127.0.0.1' (loopback address for machine's internal use)  
+_awk 'NR==1{print $2}'_ - prints the second field from the first line of its input
+
+#### Key functions:
+```diff
+• [grab_IP] runs the command in the background and displays the "Public IP" address
+• [reset_label] once IP is displayed, can be hidden again, and app resets
+```
+#### Key packages used:
+```diff
+• import 'tkinter' for dedicated GUI
+• import 'subprocess' allows for external execution of the commands from your Python script to the OS shell
+• packaged with "$ pyinstaller --onefile --noconsole --icon='image.png' showmyip.py"
+```
+![Screenshot 2024-06-26 at 4.11.21 AM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/1d077ee3-1eb6-439c-8a12-9eedb585b582")
+
+<details>
+<summary>Python Script</summary>
+
+![showmyip](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/57cfae58-3d4f-40db-8c21-58476592ca02)
+</details>  
+
 ### _Blockchain.py_
 The code implements a simple blockchain for authentication.  
 Previous blocks are encrypted with a SHA256 hash, used to authenticate the integrity of each new subsequent block.  
@@ -91,7 +127,7 @@ Logs were configured to provide details about moved files and retreive relocated
 
 ![Screenshot 2024-06-19 at 3 44 00 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/03b585c3-21bc-45e1-89f4-bf03d267aea7)
 ```diff
-BEFORE (TOP) | AFTER (BOTTOM)
+BEFORE (top) | AFTER (bottom)
 ```
 ![Screenshot 2024-06-19 at 3 44 14 PM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/bc7eb833-ccd3-40d8-b1b7-3ba2bfd10666)
 <details>
