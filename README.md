@@ -3,12 +3,14 @@
 Hello my name is HOON CHOI.
 I have created this repository to serve as my hub to showcase expertise, recount certain challenges, and - overall - monitor progression.
 Explore this repo for various insights, projects, and evolution on my Data Analytics and Data Science journey.
+Projects are added to the list in order of recency, with current projects on top.
 
 ## OBJECTIVE
 Data Analyst with expertise in data visualization and relational databases, using _Python_, _SQL_, and _Tableau_ - among other business intelligence tools.
 Proven ability to drive business outcomes through insightful data, demonstrated by increased customer engagement and cost reduction. 
 Skilled in creating impactful marketing strategies and content, contributing to business development. 
 Certified in Data Analytics and Business Intelligence with a BBA in Business Administration, seeking to leverage analytical skills to support data-driven decision-making and growth in a dynamic organization.
+
 ## TABLE of CONTENTS
 ### [Python Projects](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#python-projects-1)
   - [_ShowMyIP_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#showmyip)
@@ -26,7 +28,7 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
 ### [Certificates](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#certificates-1)
 ### [Contact](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#contact-1)
 ## PYTHON PROJECTS
-### _ShowMyIP_
+### - _ShowMyIP_
 There are at least 3 main ways to display a machine's IP address - Third-party websites/software | Command-Line Interface | "Settings > WiFi > More Info".  
 - _[Third-party sites/software]_ requires connected to a server to ping the machine, where the company will hold that data  
 - _[Command-Line Interface]_ requires a command (_$ ifconfig_) / a string of commands (_below_) - difficult to decipher/memorize
@@ -61,7 +63,7 @@ _awk 'NR==1{print $2}'_ - prints the second field from the first line of its inp
 ![showmyip](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/57cfae58-3d4f-40db-8c21-58476592ca02)
 </details>  
 
-### _Blockchain.py_
+### - _Blockchain.py_
 The code implements a simple blockchain for authentication.  
 Previous blocks are encrypted with a SHA256 hash, used to authenticate the integrity of each new subsequent block.  
 The chain starts with a genesis block and allows additional subsequent blocks.
@@ -83,7 +85,7 @@ The chain starts with a genesis block and allows additional subsequent blocks.
 ![blockchain py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/7cc9999d-c382-424c-ab1d-d683613b6f52)
 </details>  
 
-### _SMTP_Email_bot.py_
+### - _SMTP_Email_bot.py_
 This script automates sending emails from '_.rtf_' files.  
 Locates the most recent '_.rtf_' file in specified directory, parses the file for email details (_FROM, TO, SUBJECT, BODY, and ATTACHMENTS_).  
 After confirmation, email is sent and the processed '_.rtf_' file is renamed and catalogued.
@@ -107,7 +109,7 @@ After confirmation, email is sent and the processed '_.rtf_' file is renamed and
 ![email_bot py](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/76a652b8-9a29-4417-bd37-b9ac7284c9d0)
 </details>
 
-### _Desktop_Organizer.py_
+### - _Desktop_Organizer.py_ (Desktop Organizer)
 Script, designed to automate File Organization on a specified directory ("_~/Desktop_" used in this example ).  
 Scans selected directory for files -  based on supported file types (_e.g., audio, documents, images, videos_) - to categorize into selected directories.  
 The GUI - built with tkinter - features a simple window with a title, input field, and file browse capabilities, to configure the file organization.  
@@ -137,7 +139,7 @@ BEFORE (top) | AFTER (bottom)
 
 </details>
 
-### _Distance_Converter.py_
+### - _Distance_Converter.py_ (mi2km)
 Desktop application ran to convert distance - "_mi to km_" / "_km to mi_", selected with a dropdown menu.  
 Core function reads the input value and performs the conversion, based on the selected type.  
 <Enter> key can be used to run conversion (for full-size keyboard users).
