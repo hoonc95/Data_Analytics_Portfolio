@@ -13,7 +13,7 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
 
 ## TABLE of CONTENTS
 ### [Python Projects](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#python-projects-1)
-  - [_ShowMyIP_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#showmyip)
+  - [_ShowMyIP.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#showmyip)
   - [_Blockchain.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#blockchainpy)
   - [_SMTP_Email_bot.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#smtp_email_botpy)
   - [_Desktop_Organizer.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#desktop_organizerpy)
