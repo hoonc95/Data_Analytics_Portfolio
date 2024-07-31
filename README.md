@@ -28,7 +28,7 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
 ### [Certificates](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#certificates-1)
 ### [Contact](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#contact-1)
 ## PYTHON PROJECTS
-### - _ShowMyIP_
+### - _ShowMyIP.py_
 There are at least 3 main ways to display a machine's IP address - Third-party websites/software | Command-Line Interface | "Settings > WiFi > More Info".  
 - _[Third-party sites/software]_ requires connected to a server to ping the machine, where the company will hold that data  
 - _[Command-Line Interface]_ requires a command (_$ ifconfig_) / a string of commands (_below_) - difficult to decipher/memorize
