@@ -1,9 +1,9 @@
-# HOON CHOI - Data Analytics Portfolio
+![📈📊_Data_Analytics_Portfolio](https://github.com/user-attachments/assets/65d41c50-f288-44aa-8934-5ae1d05bef01)
 
-Hello my name is HOON CHOI.
-I have created this repository to serve as my hub to showcase expertise, recount certain challenges, and - overall - monitor progression.
-Explore this repo for various insights, projects, and evolution on my Data Analytics and Data Science journey.
-Projects are added to the list in order of recency, with current projects on top.
+Hello my name is HOON CHOI.  
+I have created this repository to serve as my hub to showcase expertise, recount certain challenges, and - overall - monitor progression. 
+Explore this repo for various insights, projects, and evolution on my Data Analytics and Data Science journey. 
+Projects are added to the list in order of recency, with most current projects on top. 
 
 ## OBJECTIVE
 Data Analyst with expertise in data visualization and relational databases, using _Python_, _SQL_, and _Tableau_ - among other business intelligence tools.
