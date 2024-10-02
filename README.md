@@ -1,9 +1,14 @@
-![📈📊_Data_Analytics_Portfolio](https://github.com/user-attachments/assets/65d41c50-f288-44aa-8934-5ae1d05bef01)
+![📈👔📊_Hoon_Choi_PortfolioBusiness_Intelligence_Analyst (1)](https://github.com/user-attachments/assets/ddadd63a-d6f8-450e-881a-c4678b1cbc79)
+```diff
+Hello, World! my name is HOON CHOI. 
+```
+this repository was created to serve as my hub to showcase expertise, recount personal goals and challenges, and to monitor my progression.
+Explore this repo for various insights, projects, and evolution on my Business Intelligence insights grounded in my Data Analytics and Data Science journey. 
+Projects are added to a list in order of recency, with most current projects on top.  
 
-Hello my name is HOON CHOI.  
-I have created this repository to serve as my hub to showcase expertise, recount certain challenges, and - overall - monitor progression. 
-Explore this repo for various insights, projects, and evolution on my Data Analytics and Data Science journey. 
-Projects are added to the list in order of recency, with most current projects on top. 
+![Static Badge](https://img.shields.io/badge/Current%20Project-8A2BE2)
+
+### Skills  
 
 ## OBJECTIVE
 Data Analyst with expertise in data visualization and relational databases, using _Python_, _SQL_, and _Tableau_ - among other business intelligence tools.
