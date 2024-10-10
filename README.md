@@ -6,7 +6,9 @@ this repository was created to serve as my hub to showcase expertise, recount pe
 Explore this repo for various insights, projects, and evolution on my Business Intelligence insights grounded in my Data Analytics and Data Science journey. 
 Projects are added to a list in order of recency, with most current projects on top.  
 
-![Static Badge](https://img.shields.io/badge/Current%20Project-8A2BE2)
+![Static Badge](https://img.shields.io/badge/Current%20Project-8A2BE2)  
+[_Prospective_NBA_Expansion_Draft_Pool.sql_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#prospective_nba_expansion_draft_poolsql)
+
 
 ### Skills  
 
