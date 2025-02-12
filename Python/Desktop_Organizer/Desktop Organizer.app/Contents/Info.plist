@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>desktop_cleaner_with_button</string>
+	<key>CFBundleExecutable</key>
+	<string>desktop_cleaner_with_button</string>
+	<key>CFBundleIconFile</key>
+	<string>generated-22947bc181796740ff4c0abf025cbe855104deb7435e33a5da65129c4ab6d75b.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>desktop_cleaner_with_button</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>desktop_cleaner_with_button</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
