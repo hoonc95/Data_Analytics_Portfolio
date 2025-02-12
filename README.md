@@ -25,12 +25,14 @@ Certified in Data Analytics and Business Intelligence with a BBA in Business Adm
   › [_SMTP_Email_bot.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#smtp_email_botpy)  
   › [_Desktop_Organizer.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#desktop_organizerpy)  
   › [_Distance_Converter.py_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#distance_converterpy)  
+<!-- 
 ### [SQL Databases](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#sql-databases-1)
   › [_Prospective_NBA_Expansion_Draft_Pool.sql_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#prospective_nba_expansion_draft_poolsql)  
   › [_NBA_2023_Season_Analysis_Player_Stats.sql_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#nba_2023_season_analysis_player_statssql)  
 ### [Tableau Dashboards](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#tableau-dashboards-1)
   › [_DASHBOARD-NBA_2023_Season_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#dashboard-nba_2023_season)  
   › [_INFO_SHEET-How_I_Met_Your_Mother_](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#info_sheet-how_i_met_your_mother)  
+-->
 
 ### [Certificates](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#certificates-1)
 ### [Contact](https://github.com/hoonc95/Data_Analytics_Portfolio/blob/main/README.md#contact-1)
@@ -243,6 +245,7 @@ The new expansion teams will flip a coin to decide either:
 
 </details>
 
+<!--
 ### _NBA_2023_Season_Analysis_Player_Stats.sql_
 <details>
 <summary>SQL Query</summary>
@@ -266,6 +269,7 @@ The new expansion teams will flip a coin to decide either:
 [Kaggle - How I Met Your Mother Dataset](https://www.kaggle.com/datasets/vidheeshnacode/how-i-met-your-mother-himym-dataset))
 </details>
 
+-->
 ## CERTIFICATES
 › Feb 2024  [IBM Data Analyst](https://coursera.org/share/93fd896fbf75e92b6400e7be753f8ab0)  
 › Feb 2024  [Google Data Analytics](https://coursera.org/share/3b9348c213103a5f10e22e412c460eee)  
